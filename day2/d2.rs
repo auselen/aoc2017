@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::prelude::*;
-use std::num::Wrapping;
 
 fn main() {
     let mut f = File::open("input").expect("err");
